@@ -7,6 +7,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+gem "econfig", '1.0.2', require: "econfig/rails"
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
@@ -17,6 +19,7 @@ gem 'devise'
 gem 'gibbon'
 gem 'payola-payments'
 gem 'sucker_punch'
+gem 'mysql2'
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'

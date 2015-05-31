@@ -77,3 +77,12 @@ pickle-email-*.html
 # Environment files that may contain sensitive data
 .env
 .powenv
+
+
+config/database.yml
+config/google_analytics.yml
+config/secrets.yml
+
+#secret key
+
+.secret
